@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+/* 背景 */
+.bg_img {
+  z-index: 1;
+  position: relative;
+  display: block;
+}
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 60px 20px 9.5px 20px;
+}
+.header-button-name {
+  font-family: "Cherry Bomb One", system-ui;
+  color: #fff;
+  background-color: #FF7A7A;
+  font-size: 36px;
+  margin: 0 15px 0 0;
+  padding: 0 40px;
+  border-radius: 45px;
+  letter-spacing: 3px;
+  border: none;
+}
+.header-button-change {
+  font-family: "Cherry Bomb One", system-ui;
+  color: #FF7A7A;
+  background-color: #fff;
+  font-size: 32px;
+  padding: 0 10px;
+  border-radius: 45px;
+  letter-spacing: 3px;
+  border: none;
+}
+
+/* 難易度ボタン */
+.difficulty-buttons {
+  font-family: "Cherry Bomb One", system-ui;
+  color: #fff;
+}
+
+/* 難しい */
+.difficulty-button-hard {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3C80E6;
+  font-size: 40px;
+  border-radius: 50%;
+  text-align: center;
+  width: 170px;
+  height: 170px;
+  top: 180px;
+  right: 20px;
+}
+/* 普通 */
+.difficulty-button-normal {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF8310;
+  font-size: 64px;
+  border-radius: 50%;
+  text-align: center;
+  width: 230px;
+  height: 230px;
+  top: 380px;
+  right: 130px;
+}
+/* 簡単 */
+.difficulty-button-easy {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  background-color: #FF7A7A;
+  font-size: 92px;
+  border-radius: 50%;
+  text-align: center;
+  font-display: inherit;
+  width: 280px;
+  height: 280px;
+  top: 630px;
+  right: 30px;
+}
+

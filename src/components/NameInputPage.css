@@ -1,0 +1,134 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+
+
+.name-input-container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #FFF9E5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 5vh 5vw;
+  box-sizing: border-box;
+}
+
+.penguin-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 4 / 3;
+  margin-bottom: -15%;
+}
+
+.image1 {
+  width: 100%;
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.hands-container {
+  position: absolute;
+  width: 180%;
+  top: 75%;
+  right: -40%;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image2, .image3 {
+  width: 30%;
+}
+
+.name-input-blue {
+  background-color: #3C80E6;
+  border-radius: 40px;
+  width: 90%;
+  max-width: 400px;
+  aspect-ratio: 4 / 5;
+  padding:100% 40% 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+
+.name-input-title {
+  font-size: 2.5rem;
+  font-family: "Cherry Bomb One", system-ui;
+  color: #fff;
+  margin-bottom: 10%;
+}
+
+.name-input {
+  width: 80%;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+}
+
+.next-button {
+  background-color: #FF7A7A;
+  color: #fff;
+  border: none;
+  padding: 15px 40px;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: "Cherry Bomb One", system-ui;
+  margin-top: 5vh;
+}
+
+.next-button:hover {
+  background-color: #ff6161;
+}
+
+@media (max-width: 768px) {
+  .penguin-container {
+    max-width: 300px;
+  }
+
+  .name-input-blue {
+    max-width: 300px;
+  }
+
+  .name-input-title {
+    font-size: 2rem;
+  }
+
+  .next-button {
+    font-size: 1.5rem;
+    padding: 12px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .penguin-container {
+    max-width: 250px;
+  }
+
+  .name-input-blue {
+    max-width: 250px;
+  }
+
+  .name-input-title {
+    font-size: 1.8rem;
+  }
+
+  .next-button {
+    font-size: 1.3rem;
+    padding: 10px 25px;
+  }
+}

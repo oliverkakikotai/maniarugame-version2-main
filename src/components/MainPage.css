@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FFEEB2;
+  overflow: hidden; /* はみ出しを防ぐ */
+}
+
+.main-page-container {
+    background-color: #FFEEB2;
+    text-align: center;
+    padding: 20px;
+    margin-top: 250px;
+  }
+  
+  .main-page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .h1text{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    font-size: 64px;
+    font-family: "Cherry Bomb One", system-ui;
+    background-image: linear-gradient(to right, #FF7A7A, #FFA048);
+    display: inline-block;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .h2text{
+    position: absolute;
+    top: 130px;
+    right: 55px;
+    font-size: 32px;
+    font-family: "Cherry Bomb One", system-ui;
+    color: #967341;
+  
+  }
+  .text-summary{
+    margin-bottom: 40px;
+  }
+  .logo {
+    width: 300px; /* 调整图片的宽度 */
+    height: auto; /* 保持高度自适应 */
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+  }
+
+  .images-container{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: -230px;
+  }
+  .image{
+    width: 150px; /* 调整图片的宽度 */
+  height: 150px; /* 固定高度 */
+  position: absolute;
+  z-index: 1;
+  }
+
+  .image:nth-child(1) {
+    top: -70%;
+    left: -10%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 70%;
+    height: 70%;
+
+  }
+  
+  .image:nth-child(2) {
+    top: 10px;
+    left: -10%;
+    transform: translateX(-50%) rotate(90deg);
+    width: 70%;
+    height: 70%;
+  }
+  
+  .image:nth-child(3) {
+    top: 70%;
+    left: -10%;
+    transform: translateX(-50%) rotate(70deg);
+    width: 70%;
+    height: 70%;
+  }
+  
+  .image:nth-child(4) {
+    top: 0%;
+    left: 120%;
+    transform: translateX(-50%) rotate(-90deg);
+    width: 70%;
+    height: 70%;
+  }
+  
+  .image:nth-child(5) {
+    top: 70%;
+    left: 110%;
+    transform: translateX(-50%) rotate(-70deg);
+    width: 70%;
+    height: 70%;
+  }
+  .image:nth-child(6) {
+    top: 140%;
+    left: 5%;
+    transform: translateX(-50%) rotate(30deg);
+    width: 100%;
+    height: 100%;
+  }
+  .image:nth-child(7) {
+    top: -70%;
+    left: 110%;
+    transform: translateX(-50%) rotate(-60deg);
+    width: 70%;
+    height: 70%;
+  }
+  .image:nth-child(8) {
+    top: 115%;
+    left: 40%;
+    transform: translateX(-10%) rotate(-10deg);
+    width: 120%;
+    height: 120%;
+  }
+  
+  .start-button {
+    background: linear-gradient(to right, #FF7A7A, #FFA048);
+    color: #fff;
+    border: none;
+    width: 330px;
+    height: 102px;
+    padding: 0px ;
+    margin-top: 50px;
+    font-size: 64px;
+    font-family: "Cherry Bomb One", system-ui;
+    cursor: pointer;
+    border-radius: 77px;
+    transition: background-color 0.3s;
+    position: relative;
+    z-index: 1;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .start-button:hover {
+    background-color: #0056b3;
+  }
+  

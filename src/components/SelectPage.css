@@ -1,0 +1,69 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+/* text */
+.name {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  margin: 40px 20px 80px 20px;
+}
+.inPut {
+  font-family: "Cherry Bomb One", system-ui;
+  color: #fff;
+  background-color: #FF7A7A;
+  font-size: 36px;
+  margin: 0 15px 0 0;
+  padding: 0 40px;
+  border-radius: 45px;
+  letter-spacing: 3px;
+}
+.selectH2 {
+  font-family: "Cherry Bomb One", system-ui;
+  color: #FF7A7A;
+  background-color: #fff;
+  font-size: 32px;
+  padding: 0 10px;
+  border-radius: 45px;
+  letter-spacing: 3px;
+  /* margin: 0; */
+}
+.start {
+  font-family: "Cherry Bomb One", system-ui;
+  color: #FF7A7A;
+  border: none;
+  /* background-color: transparent; */
+  font-size: 48px;
+  background: center center url(../assets/claw.png);
+  background-repeat: no-repeat;
+  padding: 15px 30px;
+}
+.zukan {
+  font-family: "Cherry Bomb One", system-ui;
+  color: #fff;
+  border: none;
+  /* background-color: transparent; */
+  font-size: 48px;
+  background: center center url(../assets/claw2.png);
+  background-repeat: no-repeat;
+  padding: 50px 36px;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 20px 0; */
+  margin: 50px 20px;
+}
+/* パンダ */
+.Img_panda {
+  width: 250px;
+  height: auto;
+  background-color: #3C80E6;
+  padding: 100px 50px 50px;
+  border-radius: 77px;
+  display: block;
+  margin: 0px auto;
+}

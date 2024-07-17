@@ -1,0 +1,103 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+
+.clear {
+  color: #FF7A7A;
+    font-family: "Cherry Bomb One", sans-serif;
+  cursor: pointer;
+  position: relative;
+  font-size: 64px;
+  top: -140px;
+  left: 10px
+}
+.clearTime{
+  color: #FF7A7A;
+  font-family: "Cherry Bomb One", sans-serif;
+cursor: pointer;
+position: relative;
+left: -20%;
+font-size: 32px;
+top: -170px;
+}
+.victory-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .new-character-container {
+    margin-bottom: 20px;
+  }
+  
+  .new-character-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; 
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+  }
+  
+  .backButton{
+    font-family: "Cherry Bomb One", sans-serif;
+    font-size: 48px;
+    color: #fff;
+    background-color: #FF7A7A;
+    border: none;
+    border-radius: 60px;
+    width: 314px;
+    height: 86px;
+    padding-bottom: 4px;
+  }
+
+  */
+
+  @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+.victoryPage {
+  text-align: center;
+  padding: 20px;
+}
+
+.clear {
+  color: #FF7A7A;
+  font-family: "Cherry Bomb One", sans-serif;
+  cursor: pointer;
+  position: relative;
+  font-size: 64px;
+  top: -140px;
+}
+
+.clearTime {
+  color: #FF7A7A;
+  font-family: "Cherry Bomb One", sans-serif;
+  cursor: pointer;
+  position: relative;
+  left: -20%;
+  font-size: 32px;
+  top: -170px;
+}
+
+.newCharacterContainer {
+  margin-bottom: 20px;
+}
+
+.newCharacterImage {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+}
+
+.backButton {
+  font-family: "Cherry Bomb One", sans-serif;
+  font-size: 48px;
+  color: #fff;
+  background-color: #FF7A7A;
+  border: none;
+  border-radius: 60px;
+  width: 314px;
+  height: 86px;
+  padding-bottom: 4px;
+}
