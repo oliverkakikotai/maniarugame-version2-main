@@ -11,8 +11,13 @@ html, body {
 .main-page-container {
     background-color: #FFEEB2;
     text-align: center;
-    padding: 20px;
-    margin-top: 250px;
+    padding: 5vh 5vw; /* 使用相对单位 */
+  height: 100vh; /* 确保占满整个视口高度 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    /* padding: 20px;
+    margin-top: 250px; */
   }
   
   .main-page-title {
@@ -21,9 +26,13 @@ html, body {
   }
   .h1text{
     position: absolute;
-    top: 50px;
-    left: 60px;
-    font-size: 64px;
+    /* top: 50px; */
+    /* left: 60px; */
+    /* font-size: 64px; */
+    top: 5vh;
+  left: 5vw;
+  font-size: 8vw;
+  max-font-size: 64px;
     font-family: "Cherry Bomb One", system-ui;
     background-image: linear-gradient(to right, #FF7A7A, #FFA048);
     display: inline-block;
@@ -32,19 +41,25 @@ html, body {
   }
   .h2text{
     position: absolute;
-    top: 130px;
+    /* top: 130px;
     right: 55px;
-    font-size: 32px;
+    font-size: 32px; */
+    top: 15vh;
+  right: 5vw;
+  font-size: 4vw;
     font-family: "Cherry Bomb One", system-ui;
     color: #967341;
   
   }
   .text-summary{
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
+    margin-bottom: 5vh;
   }
   .logo {
-    width: 300px; /* 调整图片的宽度 */
-    height: auto; /* 保持高度自适应 */
+    /* width: 300px;  */
+    width: 80vw; /* 使用视口宽度单位 */
+  max-width: 300px; 
+    height: auto; 
     margin: 0 auto;
     display: block;
     position: relative;
@@ -52,15 +67,25 @@ html, body {
   }
 
   .images-container{
-    position: relative;
+    /* position: relative;
     width: 250px;
     height: 250px;
     margin: 0 auto;
-    margin-top: -230px;
+    margin-top: -230px; */
+    position: relative;
+  width: 80vw;
+  height: 80vw;
+  max-width: 250px;
+  max-height: 250px;
+  margin: -20vh auto 0;
   }
   .image{
-    width: 150px; /* 调整图片的宽度 */
-  height: 150px; /* 固定高度 */
+    /* width: 150px; 
+  height: 150px;  */
+  width: 30vw;
+  height: 30vw;
+  max-width: 150px;
+  max-height: 150px;
   position: absolute;
   z-index: 1;
   }
@@ -131,11 +156,18 @@ html, body {
     background: linear-gradient(to right, #FF7A7A, #FFA048);
     color: #fff;
     border: none;
-    width: 330px;
-    height: 102px;
-    padding: 0px ;
-    margin-top: 50px;
-    font-size: 64px;
+    /* width: 330px; */
+    /* height: 102px; */
+    /* padding: 0px ; */
+    /* margin-top: 50px; */
+    /* font-size: 64px; */
+    width: 80vw; /* 使用视口宽度单位 */
+  max-width: 330px; /* 保持原有的最大宽度 */
+  height: auto;
+  padding: 2vh 0;
+  font-size: 8vw; 
+
+  margin-top: 5vh;
     font-family: "Cherry Bomb One", system-ui;
     cursor: pointer;
     border-radius: 77px;
@@ -148,4 +180,12 @@ html, body {
   .start-button:hover {
     background-color: #0056b3;
   }
-  
+  @media(min-width: 768px){
+    .h1text { font-size: 64px; }
+  .h2text { font-size: 32px; }
+  .start-button { 
+    font-size: 64px; 
+    height: 102px;
+  }
+  .image { width: 150px; height: 150px; }
+  }

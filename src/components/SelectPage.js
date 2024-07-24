@@ -59,7 +59,7 @@ import './SelectPage.css';
 import { useNavigate } from 'react-router-dom'; 
 import Img_start from '../assets/claw.png';
 import Img_zukan from '../assets/claw2.png';
-import Img_panda from '../assets/パンダ_イラストのコピー.png';
+// import Img_panda from '../assets/パンダ_イラストのコピー.png';
 
 const SelectPage = ({ onGameStart, onPokedex }) => {
   const navigate = useNavigate(); // Use useNavigate hook to handle navigation
@@ -82,7 +82,10 @@ const SelectPage = ({ onGameStart, onPokedex }) => {
         <h1 className='inPut'>おなまえ</h1>
       <h2 className='selectH2'>かえる</h2>
       </div>
-      <img src={Img_panda} alt='panda' className='Img_panda'></img>
+      {/* <img src={Img_panda} alt='panda' className='Img_panda'></img> */}
+      <div className="panda-animation-container">
+        <div className="panda-face"></div>
+      </div>
       <div className='btn'>
         <button className='start' onClick={handleGameStart}>スタート</button>
         <button className='zukan' onClick={handlePokedex}>ずかん</button>
